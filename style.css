@@ -1,0 +1,63 @@
+/**
+ * make the content have a max width
+ * 4. around 80 columns
+ * 5. extra space equally distributed around
+ * 6. if the width is less have space around anyways
+ */
+body {
+	background-color: bisque;
+	font-family: Tahoma, Arial, sans-serif;
+	line-height: 1.5;
+	max-width: 48em;
+	margin: auto;
+	padding: 1em;
+}
+
+h1 {
+	text-align: center;
+}
+
+/**
+ * add ID so this list is different
+ *
+ * make unordered list undecorated
+ * 2. no decoration before each item
+ * 3. no indentation
+ */
+#home ul{
+	text-align: center;
+	list-style-type: none;
+	padding: 0px;
+}
+
+/**
+ * add appearance of button to list items
+ * 3. separate by space each item
+ * 2. make the button bigger
+ */
+#home li {
+	background-color: floralwhite;
+	padding: 0.5em;
+	margin: 0.25em;
+}
+
+/* no underline on links */
+a {
+	text-decoration: none;
+}
+
+/**
+ * make images in each recipe centered
+ * 1. change display from default inline to block
+ * 2. give equal margin
+ *
+ * make images a standard size
+ * 3. 100 px of height
+ * 4. and proportionate width
+ */
+img {
+	display: block;
+	margin: auto;
+	height: 100px;
+	width: auto;
+}
