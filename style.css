@@ -31,14 +31,16 @@ h1 {
 }
 
 /**
- * add appearance of button to list items
- * 3. separate by space each item
+ * add appearance of button to anchor elements
  * 2. make the button bigger
+ * 3. separate by space each item
+ * 4. make link elements into buttons full width
  */
-#home li {
+#home a {
 	background-color: floralwhite;
 	padding: 0.5em;
-	margin: 0.25em;
+	margin-top: 0.25em;
+	display: block;
 }
 
 /* no underline on links */
